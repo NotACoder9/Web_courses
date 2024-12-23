@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+position: sticky;
+top: 0;
+}
+.navbar {
+    background-image: linear-gradient(to right, #6a82fb,#fc5c7d);
+    padding: 0 !important;
+}
+
+.navbar .form-control{
+    background-color: white !important;
+    color: black;
+    
+
+}
+.navbar-nav .nav-link{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar .form-control::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar .btn-outline-success{
+    background-color: color #007bff;
+    color: white;
+    border-color: #007bff;
+}
+.navbar .btn-outline-success:hover{
+background-color: #0056b3;
+color: white;
+border-color: #0056b3;
+}
+#homecontent{
+    background-image: linear-gradient(to right, #6a82fb,#fc5c7d);
+    color: #fff;
+    padding-top: 5%;
+}
+.learn-code{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.bottom-img{
+    width:100%;
+}
+#services{
+    padding: 80px 0;
+}
+.description{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.service-img{
+    width:200px;
+margin-top: 20px;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    width: 30%;
+}
+.services{
+    padding: 20px;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background: #6a82fb;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: '';
+    background:#fc5c7d;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#about-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#about-us p{
+    color:rgb(65, 65, 65);
+    font-weight: 700;
+    padding-right: 50px;
+}
+.about-img{
+    float: right;
+    margin: 10px;
+}
+
+#footer{
+    background-image: linear-gradient(to right, #6a82fb,#fc5c7d);
+    color: white;
+}
+.footer-img{
+width: 100%;
+}
+
+.footer-box .fa{
+    margin-right: 5px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #6a82fb,#fc5c7d);
+    }
+    .footer-box .form-control{
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-top: 25px;
+        max-width: 250px;
+    }
+    .footer-box .btn-primary{
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-top: 30px;
+        background-image: linear-gradient(to right, #a517ba,#5f1782);
+    }
+    
+    hr{
+        background-color: #fff;
+    
+    }
+    .copyright{
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .course-header{
+        background-image: linear-gradient(to right, #6a82fb,#fc5c7d);
+        color: #fff;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .about_header{
+        background-image: linear-gradient(to right, #6a82fb,#fc5c7d);
+        color: #fff;
+        padding-top: 5%;
+    }
+    
+    .about-content{
+        margin: 20px 0;
+        padding: 80px 0;
+    }
+    .team{
+       
+        background: #f8f9fa;
+    }
+    .team img{
+        border-radius: 50%;
+        width:100px;
+        height: 100px;
+        background: #f8f9fa;
+    }
+    .mission{
+        background: #f8f9fa;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .team-head{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        background: #f8f9fa;
+    }
+    .contact-header{
+        background: #2575fc;
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .cont-form{
+        margin: 40px 0;
+    }
+    #social-media{
+        background: #f8f9fa;
+        padding: 100px 0;
+    }
+    
+    #social-media p {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    
+    }
+    
+    .social-icons img{
+        width: 60px;
+        transition: 0.5s;
+    }
+    
+    .social-icons a:hover img{
+    transform: translateY(-10px);
+    }
+    
